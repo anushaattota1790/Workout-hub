@@ -1,0 +1,4 @@
+pdf_backups/
+.DS_Store
+*.pyc
+__pycache__/

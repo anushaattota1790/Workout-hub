@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My PT Hub - Quick Access</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .hub-section {
+      background: var(--card);
+      border-top: 1px solid #d7dbe0;
+      padding: 18px 16px 22px;
+    }
+
+    .hub-section h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .hub-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .hub-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 56px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      background: #f4f4f4;
+      padding: 0 16px;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .hub-link:active {
+      background: var(--accent);
+      color: #1b1d21;
+    }
+
+    .hub-link .arrow {
+      font-size: 20px;
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <h1>My PT Hub</h1>
+      <p style="margin:4px 0 0;color:var(--muted);font-size:16px;">Tap a plan to open it</p>
+    </header>
+
+    <section class="hub-section">
+      <h2>Gym Workout Days</h2>
+      <div class="hub-list">
+        <a class="hub-link" href="My%20PT%20Hub%20day1.pdf" target="_blank">Day 1 <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubday2.pdf" target="_blank">Day 2 <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubday3.pdf" target="_blank">Day 3 <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubday4.pdf" target="_blank">Day 4 <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hub%20day5.pdf" target="_blank">Day 5 <span class="arrow">›</span></a>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <h2>Home Workouts</h2>
+      <div class="hub-list">
+        <a class="hub-link" href="My%20PT%20Hubhome%20workoutday1.pdf" target="_blank">Home Day 1 <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubhomeworkoutday2.pdf" target="_blank">Home Day 2 <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubhome%20workoutday3.pdf" target="_blank">Home Day 3 (v1) <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubhomeworkoutday3.pdf" target="_blank">Home Day 3 (v2) <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubhomeworkoutday4.pdf" target="_blank">Home Day 4 <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubhomeworkoutday5.pdf" target="_blank">Home Day 5 <span class="arrow">›</span></a>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <h2>Diet Plans</h2>
+      <div class="hub-list">
+        <a class="hub-link" href="My%20PT%20HubNonVegplan.pdf" target="_blank">Non-Veg Plan <span class="arrow">›</span></a>
+        <a class="hub-link" href="My%20PT%20Hubvegdietplan.pdf" target="_blank">Veg Diet Plan <span class="arrow">›</span></a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
