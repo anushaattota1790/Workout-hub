@@ -1,4 +1,7 @@
 pdf_backups/
+pdf_backups_before_dedup/
+pdf_backups_final/
+pdf_backups_with_videos/
 .DS_Store
 *.pyc
 __pycache__/
